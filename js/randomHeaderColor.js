@@ -5,7 +5,7 @@ function randomHeaderColor() {
     const hexSpan = header.querySelector("span#hex");
     const cssSpan = header.querySelector("span#name");
 
-    const randomColorIndex = hex[Math.floor(Math.random() * hex.length)];
+    const randomColorIndex = Math.floor(Math.random() * hex.length);
     const randomCSS = css[randomColorIndex];
     const randomHEX = hex[randomColorIndex];
     header.style.backgroundColor = css[randomColorIndex];
