@@ -1,5 +1,5 @@
 body {
-    margin:0;
+    margin: 0;
 }
 
 header {
@@ -7,25 +7,31 @@ header {
     height: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 header>div#logo-image {
     aspect-ratio: 4/1;
     height: 50px;
-    display: flex;
+    display: block;
     justify-self: center;
+    flex-wrap: wrap;
 }
 
 header>span#hex {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 10;
-    margin-right: auto;
+    margin-top: 15.5;
+    margin-bottom: 15.5;
+    margin-left: 20;
+    left: 0;
+    top: 0;
+    position: absolute;
 }
 
 header>span#name {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 10;
-    margin-left: auto;
+    margin-top: 15.5;
+    margin-bottom: 15.5;
+    margin-right: 20;
+    right: 0;
+    top: 0;
+    position: absolute;
 }
