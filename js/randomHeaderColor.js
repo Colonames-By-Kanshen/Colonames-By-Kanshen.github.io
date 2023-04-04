@@ -6,9 +6,11 @@ function randomHeaderColor() {
     const cssSpan = header.querySelector("span#name");
 
     const randomColorIndex = hex[Math.floor(Math.random() * hex.length)];
+    const randomCSS = css[randomColorIndex];
+    const randomHEX = hex[randomColorIndex];
     header.style.backgroundColor = css[randomColorIndex];
-    hexSpan.innerHTML = css[randomColorIndex];
-    cssSpan.innerHTML = css[randomColorIndex];
+    hexSpan.innerHTML = randomHEX;
+    cssSpan.innerHTML = randomCSS;
     console.log(css[randomColorIndex]);
     console.log(hex[randomColorIndex]);
 }
