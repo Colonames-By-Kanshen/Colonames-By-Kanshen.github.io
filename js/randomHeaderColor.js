@@ -9,4 +9,6 @@ function randomHeaderColor() {
     header.style.backgroundColor = css[randomColorIndex];
     hexSpan.innerHTML = css[randomColorIndex];
     cssSpan.innerHTML = css[randomColorIndex];
+    console.log(css[randomColorIndex]);
+    console.log(hex[randomColorIndex]);
 }
