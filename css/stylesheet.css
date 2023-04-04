@@ -15,3 +15,17 @@ header>div#logo-image {
     display: flex;
     justify-self: center;
 }
+
+header>span#hex {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10;
+    margin-right: auto;
+}
+
+header>span#name {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10;
+    margin-left: auto;
+}
