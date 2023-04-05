@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen and (orientation:landscape) {
     body {
         margin: 0;
     }
@@ -39,7 +39,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (orientation:portrait) {
     body {
         margin: 0;
     }
