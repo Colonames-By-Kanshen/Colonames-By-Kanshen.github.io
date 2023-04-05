@@ -9,8 +9,8 @@ function randomHeaderColor() {
     const randomCSS = css[randomColorIndex];
     const randomHEX = hex[randomColorIndex];
     header.style.backgroundColor = css[randomColorIndex];
-    hexSpan.innerHTML = randomHEX;
-    cssSpan.innerHTML = randomCSS;
+    hexSpan.innerHTML = '<a href="http://colonames.by.kanshen.click/' + randomHEX.replace("#", "") + '">' + randomHEX + '</a>';
+    cssSpan.innerHTML = '<a href="http://colonames.by.kanshen.click/' + randomHEX.replace("#", "") + '">' + randomCSS + '</a>';
     console.log(randomCSS);
     console.log(randomHEX);
     getColorBrightness(randomHEX.replace("#", ""))
