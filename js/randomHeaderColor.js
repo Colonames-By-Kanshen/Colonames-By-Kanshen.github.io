@@ -35,7 +35,9 @@ function getColorBrightness(randomColor) {
 
     if (brightness >= 0.588) {
         logoFill.style.fill = "#000000";
+        header.style.color = "#000000";
     } else {
         logoFill.style.fill = "#FFFFFF";
+        header.style.color = "#FFFFFF";
     }
 }
