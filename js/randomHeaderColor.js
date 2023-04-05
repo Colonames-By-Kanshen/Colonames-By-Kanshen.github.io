@@ -18,7 +18,8 @@ function randomHeaderColor() {
 
 function getColorBrightness(randomColor) {
     const header = document.querySelector("header");
-    const logo = header.querySelector("svg")
+    const logo = header.querySelector("svg");
+    const logoFill = logo.querySelector("g");
     
     const redHEX = randomColor.substring(0, 2);
     const greenHEX = randomColor.substring(2, 4);
@@ -31,8 +32,6 @@ function getColorBrightness(randomColor) {
     const rgbRGB = redRGB + blueRGB + greenRGB;
     const avgRGB = Math.round(rgbRGB / 3);
     const brightness = Math.round(avgRGB / 255);
-    console.log(logo);
-    console.log(brightness)
 
     // test if all color channels are at least 150
     if (brightness >= 0.588) {
