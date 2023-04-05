@@ -13,4 +13,25 @@ function randomHeaderColor() {
     cssSpan.innerHTML = randomCSS;
     console.log(randomCSS);
     console.log(randomHEX);
+    getColorBrightness(randomHEX.replace("#", ""))
+}
+
+function getColorBrightness(randomColor) {
+    const header = document.querySelector("header");
+    const logo = header.querySelector("svg")
+    
+    const redHEX = randomColor.substring(0, 2);
+    const greenHEX = randomColor.substring(2, 4);
+    const blueHEX = randomColor.substring(4, 6);
+
+    const redRGB = parseInt(redHEX, 16);
+    const blueRGB = parseInt(blueHEX, 16);
+    const greenRGB = parseInt(greenHEX, 16);
+
+    // test if all color channels are at least 150
+    if (redRGB >= 150 && greenRGB >= 150 && blueRGB >= 150) {
+        logo.style.backgroundColor = "#000000";
+    } else {
+        logo.style.backgroundColor = "#FFFFFF";
+    }
 }
