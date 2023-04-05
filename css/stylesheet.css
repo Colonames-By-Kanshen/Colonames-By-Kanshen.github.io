@@ -83,6 +83,11 @@
     input::placeholder {
         color: #F0F0F0 !important;
     }
+
+    div#namesdescription {
+        width: 20%;
+        padding: 10;
+    }
 }
 
 @media screen and (orientation:portrait) {
@@ -174,6 +179,11 @@
 
     input::placeholder {
         color: #F0F0F0 !important;
+    }
+
+    div#namesdescription {
+        width: 20%;
+        padding: 10;
     }
 }
 
