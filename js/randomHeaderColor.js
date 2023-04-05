@@ -30,8 +30,8 @@ function getColorBrightness(randomColor) {
 
     // test if all color channels are at least 150
     if (redRGB >= 150 && greenRGB >= 150 && blueRGB >= 150) {
-        logo.style.backgroundColor = "#000000";
+        logo.style.fill = "#000000";
     } else {
-        logo.style.backgroundColor = "#FFFFFF";
+        logo.style.fill = "#FFFFFF";
     }
 }
