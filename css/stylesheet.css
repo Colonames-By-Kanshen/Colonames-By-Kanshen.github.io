@@ -78,6 +78,10 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
+    input::placeholder {
+        color: #F0F0F0 !important;
+    }
 }
 
 @media screen and (orientation:portrait) {
@@ -164,6 +168,10 @@
         margin-right: auto;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    input::placeholder {
+        color: #F0F0F0 !important;
     }
 }
 
