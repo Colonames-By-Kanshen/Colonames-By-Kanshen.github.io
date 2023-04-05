@@ -28,8 +28,12 @@ function getColorBrightness(randomColor) {
     const blueRGB = parseInt(blueHEX, 16);
     const greenRGB = parseInt(greenHEX, 16);
 
+    const rgbRGB = redRGB + blueRGB + greenRGB;
+    const avgRGB = Math.round(rgbRGB / 3);
+    const brightness = Math.round(avgRGB / 255);
+
     // test if all color channels are at least 150
-    if (redRGB >= 150 && greenRGB >= 150 && blueRGB >= 150) {
+    if (brightness >= 0.588) {
         logo.style.fill = "#000000";
     } else {
         logo.style.fill = "#FFFFFF";
