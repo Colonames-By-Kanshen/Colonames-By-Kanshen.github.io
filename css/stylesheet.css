@@ -10,6 +10,7 @@
         justify-content: center;
         align-items: center;
         font-size: 16px;
+        font-family: "Bebas Neue";
     }
 
     header>div#logo-image {
@@ -51,6 +52,7 @@
         justify-content: center;
         align-items: center;
         font-size: 32px;
+        font-family: "Bebas Neue";
     }
 
     header>div#logo-image {
