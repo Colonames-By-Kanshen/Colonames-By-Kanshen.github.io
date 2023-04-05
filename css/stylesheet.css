@@ -38,6 +38,27 @@
         top: 0;
         position: absolute;
     }
+
+    footer {
+        align-items: flex-end;
+        width: 100%;
+        bottom: 0px;
+        position: fixed;
+        height: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    credits {
+        bottom: 0;
+        position: relative;
+        text-align: center;
+        font-family: 'Bebas Neue';
+        font-size: 12px;
+        padding: 10px;
+        text-decoration: none;
+    }
 }
 
 @media screen and (orientation:portrait) {
@@ -79,6 +100,32 @@
         right: 0;
         top: 0;
         position: absolute;
+    }
+
+    footer {
+        align-items: flex-end;
+        width: 102%;
+        bottom: 0px;
+        position: fixed;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        left: 0;
+        right: 0;
+    }
+
+    credits {
+        bottom: 0;
+        position: relative;
+        text-align: center;
+        font-family: 'Bebas Neue';
+        font-size: 24px;
+        padding: 10px;
+        text-decoration: none;
+        margin: 0;
+        right: 0;
     }
 }
 
