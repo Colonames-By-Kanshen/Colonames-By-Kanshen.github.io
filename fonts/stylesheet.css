@@ -10,3 +10,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Vegur';
+    src: url('Vegur-Light.eot');
+    src: url('Vegur-Light.eot?#iefix') format('embedded-opentype'),
+        url('Vegur-Light.woff') format('woff'),
+        url('Vegur-Light.ttf') format('truetype'),
+        url('Vegur-Light.svg#Vegur-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
