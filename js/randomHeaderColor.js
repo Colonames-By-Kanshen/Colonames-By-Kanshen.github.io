@@ -31,7 +31,7 @@ function getColorBrightness(randomColor) {
 
     const rgbRGB = redRGB + blueRGB + greenRGB;
     const avgRGB = Math.round(rgbRGB / 3);
-    const brightness = Math.round(avgRGB / 255);
+    const brightness = (avgRGB / 255);
 
     // test if all color channels are at least 150
     if (brightness >= 0.588) {
