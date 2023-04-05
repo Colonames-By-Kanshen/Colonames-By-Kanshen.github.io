@@ -1,37 +1,81 @@
-body {
-    margin: 0;
+@media screen and (min-width: 480px) {
+    body {
+        margin: 0;
+    }
+
+    header {
+        background-color: #FFFFFF;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    header>div#logo-image {
+        aspect-ratio: 4/1;
+        height: 50px;
+        display: block;
+        justify-self: center;
+        flex-wrap: wrap;
+    }
+
+    header>span#hex {
+        margin-top: 15.5;
+        margin-bottom: 15.5;
+        margin-left: 20;
+        left: 0;
+        top: 0;
+        position: absolute;
+    }
+
+    header>span#name {
+        margin-top: 15.5;
+        margin-bottom: 15.5;
+        margin-right: 20;
+        right: 0;
+        top: 0;
+        position: absolute;
+    }
 }
 
-header {
-    background-color: #FFFFFF;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+@media screen and (max-width: 480px) {
+    body {
+        margin: 0;
+    }
 
-header>div#logo-image {
-    aspect-ratio: 4/1;
-    height: 50px;
-    display: block;
-    justify-self: center;
-    flex-wrap: wrap;
-}
+    header {
+        background-color: #FFFFFF;
+        height: 67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+    }
 
-header>span#hex {
-    margin-top: 15.5;
-    margin-bottom: 15.5;
-    margin-left: 20;
-    left: 0;
-    top: 0;
-    position: absolute;
-}
+    header>div#logo-image {
+        aspect-ratio: 4/1;
+        height: 50px;
+        display: block;
+        justify-self: center;
+        flex-wrap: wrap;
+    }
 
-header>span#name {
-    margin-top: 15.5;
-    margin-bottom: 15.5;
-    margin-right: 20;
-    right: 0;
-    top: 0;
-    position: absolute;
+    header>span#hex {
+        margin-top: 15.5;
+        margin-bottom: 15.5;
+        margin-left: 20;
+        left: 0;
+        top: 0;
+        position: absolute;
+    }
+
+    header>span#name {
+        margin-top: 15.5;
+        margin-bottom: 15.5;
+        margin-right: 20;
+        right: 0;
+        top: 0;
+        position: absolute;
+    }
 }
