@@ -89,6 +89,11 @@
         padding: 10;
         font-family: "Vegur";
     }
+
+    div#contentBoxes {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
 
 @media screen and (orientation:portrait) {
@@ -186,6 +191,11 @@
         width: 20%;
         padding: 10;
         font-family: "Vegur";
+    }
+
+    div#contentBoxes {
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
 
