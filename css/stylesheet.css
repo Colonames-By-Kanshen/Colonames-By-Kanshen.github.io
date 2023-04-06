@@ -102,8 +102,9 @@
         margin-right: 15px;
         display: flex;
         flex-flow: row;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: space-evenly;
+        row-gap: 10px;
     }
 
     div#namesdesctitle {
@@ -254,8 +255,9 @@
         margin-right: 15px;
         display: flex;
         flex-flow: row;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: space-evenly;
+        row-gap: 10px;
     }
 
     div#namesdesctitle {
