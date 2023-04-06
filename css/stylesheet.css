@@ -85,7 +85,7 @@
     }
 
     div#namesdescription {
-        width: 20%;
+        width: 90%;
         padding: 0;
         font-family: "Vegur";
         border: 3px solid black;
@@ -207,7 +207,7 @@
     }
 
     div#namesdescription {
-        width: 100%;
+        width: 90%;
         padding: 0;
         font-family: "Vegur";
         border: 3px solid black;
