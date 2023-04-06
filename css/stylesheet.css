@@ -86,10 +86,7 @@
 
     div#namesdescription {
         width: 20%;
-        padding-bottom: 10;
-        padding-top: 10;
-        padding-right: 0;
-        padding-left: 0;
+        padding: 0;
         font-family: "Vegur";
         border: 3px solid black;
         border-radius: 15px;
@@ -101,9 +98,10 @@
     }
 
     div#namesdesctitle {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 15.5px;
+        padding-bottom: 15.5px;
         text-align: center;
+        border-bottom: 3px solid black;
     }
 
     div#namedesctext {
@@ -204,10 +202,7 @@
 
     div#namesdescription {
         width: 20%;
-        padding-bottom: 10;
-        padding-top: 10;
-        padding-right: 0;
-        padding-left: 0;
+        padding: 0;
         font-family: "Vegur";
         border: 3px solid black;
         border-radius: 15px;
@@ -219,9 +214,10 @@
     }
 
     div#namesdesctitle {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 15.5px;
+        padding-bottom: 15.5px;
         text-align: center;
+        border-bottom: 3px solid black;
     }
 
     div#namedesctext {
