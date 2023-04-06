@@ -213,9 +213,9 @@
         padding: 0;
         font-family: "Vegur";
         border: 3px solid black;
-        border-radius: 15px;
+        border-radius: 30px;
         overflow: hidden;
-        font-size: 8px;
+        font-size: 24px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -232,6 +232,7 @@
         padding-top: 15.5px;
         padding-bottom: 15.5px;
         text-align: center;
+        font-size: 32px;
         border-bottom: 3px solid black;
     }
 
