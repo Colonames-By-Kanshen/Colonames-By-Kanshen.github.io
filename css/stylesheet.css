@@ -90,6 +90,7 @@
         font-family: "Vegur";
         border: 3px solid black;
         border-radius: 15px;
+        overflow: hidden;
     }
 
     div#contentBoxes {
@@ -206,6 +207,7 @@
         font-family: "Vegur";
         border: 3px solid black;
         border-radius: 15px;
+        overflow: hidden;
     }
 
     div#contentBoxes {
