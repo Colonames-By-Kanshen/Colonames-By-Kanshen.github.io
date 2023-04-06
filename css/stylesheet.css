@@ -103,6 +103,7 @@
         display: flex;
         flex-flow: row;
         flex-wrap: nowrap;
+        justify-content: center;
     }
 
     div#namesdesctitle {
@@ -116,6 +117,31 @@
     div#namedesctext {
         padding: 10px;
         font-size: 12px;
+    }
+
+    div.colorbox {
+        width: 20%;
+        height: 200px;
+        background-color: aliceblue;
+        color: black;
+        border: 3px solid black;
+        border-radius: 20px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.colorbox>span#colorname {
+        font-size: 32px;
+        font-family: 'Bebas Neue';
+    }
+
+    div.colorbox>span#colorhex {
+        font-size: 24px;
+        font-family: 'Bebas Neue';
     }
 }
 
@@ -230,6 +256,7 @@
         display: flex;
         flex-flow: row;
         flex-wrap: nowrap;
+        justify-content: center;
     }
 
     div#namesdesctitle {
@@ -242,6 +269,31 @@
 
     div#namedesctext {
         padding: 10px;
+    }
+
+    div.colorbox {
+        width: 20%;
+        height: 200px;
+        background-color: aliceblue;
+        color: black;
+        border: 3px solid black;
+        border-radius: 20px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.colorbox>span#colorname {
+        font-size: 32px;
+        font-family: 'Bebas Neue';
+    }
+
+    div.colorbox>span#colorhex {
+        font-size: 24px;
+        font-family: 'Bebas Neue';
     }
 }
 
