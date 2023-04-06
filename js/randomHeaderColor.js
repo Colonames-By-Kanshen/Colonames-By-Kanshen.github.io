@@ -6,6 +6,8 @@ function randomHeaderColor() {
     const input = document.querySelector("input");
     const hexSpan = header.querySelector("span#hex");
     const cssSpan = header.querySelector("span#name");
+    const desc = document.querySelector("div#namedescription");
+    const desctitle = desc.querySelector("div#namesdesctitle");
 
     const randomColorIndex = Math.floor(Math.random() * hex.length);
     const randomCSS = css[randomColorIndex];
@@ -13,6 +15,7 @@ function randomHeaderColor() {
     header.style.backgroundColor = css[randomColorIndex];
     footer.style.backgroundColor = css[randomColorIndex];
     input.style.backgroundColor = css[randomColorIndex];
+    desctitle.style.backgroundColor = css[randomColorIndex];
     hexSpan.innerHTML = '<a href="http://colonames.by.kanshen.click/' + randomHEX.replace("#", "") + '">' + randomHEX + '</a>';
     cssSpan.innerHTML = '<a href="http://colonames.by.kanshen.click/' + randomHEX.replace("#", "") + '">' + randomCSS + '</a>';
     console.log(randomCSS);
@@ -26,6 +29,8 @@ function getColorBrightness(randomColor) {
     const logoFill = logo.querySelector("g");
     const footer = document.querySelector("footer");
     const input = document.querySelector("input");
+    const desc = document.querySelector("div#namedescription");
+    const desctitle = desc.querySelector("div#namedesctitle");
     
     const redHEX = randomColor.substring(0, 2);
     const greenHEX = randomColor.substring(2, 4);
@@ -44,10 +49,12 @@ function getColorBrightness(randomColor) {
         header.style.color = "#000000";
         footer.style.color = "#000000";
         input.style.color = "#000000";
+        desctitle.style.color = "#000000";
     } else {
         logoFill.style.fill = "#FFFFFF";
         header.style.color = "#FFFFFF";
         footer.style.color = "#FFFFFF";
         input.style.color = "#FFFFFF";
+        desctitle.style.color = "#FFFFFF";
     }
 }

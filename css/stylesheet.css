@@ -81,7 +81,7 @@
     }
 
     input::placeholder {
-        color: #F0F0F0 !important;
+        color: inherit !important;
     }
 
     div#namesdescription {
@@ -198,7 +198,7 @@
     }
 
     input::placeholder {
-        color: #F0F0F0 !important;
+        color: inherit !important;
     }
 
     div#namesdescription {
