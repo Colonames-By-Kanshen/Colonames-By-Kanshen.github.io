@@ -6,8 +6,7 @@ function randomHeaderColor() {
     const input = document.querySelector("input");
     const hexSpan = header.querySelector("span#hex");
     const cssSpan = header.querySelector("span#name");
-    const desc = document.querySelector("div#namedescription");
-    const desctitle = desc.querySelector("div#namesdesctitle");
+    const desctitle = document.querySelector("div#namesdesctitle");
 
     const randomColorIndex = Math.floor(Math.random() * hex.length);
     const randomCSS = css[randomColorIndex];
@@ -29,8 +28,7 @@ function getColorBrightness(randomColor) {
     const logoFill = logo.querySelector("g");
     const footer = document.querySelector("footer");
     const input = document.querySelector("input");
-    const desc = document.querySelector("div#namedescription");
-    const desctitle = desc.querySelector("div#namedesctitle");
+    const desctitle = document.querySelector("div#namesdesctitle");
     
     const redHEX = randomColor.substring(0, 2);
     const greenHEX = randomColor.substring(2, 4);
