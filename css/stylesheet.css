@@ -122,8 +122,6 @@
     div.colorbox {
         width: 20%;
         height: 200px;
-        background-color: aliceblue;
-        color: black;
         border: 3px solid black;
         border-radius: 20px;
         display: flex;
@@ -274,8 +272,6 @@
     div.colorbox {
         width: 20%;
         height: 200px;
-        background-color: aliceblue;
-        color: black;
         border: 3px solid black;
         border-radius: 20px;
         display: flex;
