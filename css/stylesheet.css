@@ -103,7 +103,7 @@
         display: flex;
         flex-flow: row;
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     div#namesdesctitle {
@@ -254,7 +254,7 @@
         display: flex;
         flex-flow: row;
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     div#namesdesctitle {
