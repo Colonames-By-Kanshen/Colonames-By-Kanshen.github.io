@@ -94,6 +94,12 @@
         margin-left: 15px;
         margin-right: 15px;
     }
+
+    div#namedesctitle {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
 }
 
 @media screen and (orientation:portrait) {
@@ -196,6 +202,12 @@
     div#contentBoxes {
         margin-left: 15px;
         margin-right: 15px;
+    }
+
+    div#namedesctitle {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
     }
 }
 
