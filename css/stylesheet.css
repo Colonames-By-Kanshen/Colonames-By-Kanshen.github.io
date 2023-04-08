@@ -132,6 +132,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        cursor: pointer;
     }
 
     div.colorbox>span#colorname {
@@ -284,6 +285,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        cursor: pointer;
     }
 
     div.colorbox>span#colorname {
