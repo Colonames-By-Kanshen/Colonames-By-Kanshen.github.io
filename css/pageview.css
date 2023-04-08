@@ -11,8 +11,9 @@ header>a>div>svg>g {
     fill: var(--mainContentColor) !important;
 }
 
-body {
+body>mainbodycontent {
     background: linear-gradient(to bottom, var(--themeColor) 0%, #000000 100%) !important;
     height: calc(100% - 50px) !important;
-    width: 100% !important
+    width: 100% !important;
+    display: block !important;
 }
