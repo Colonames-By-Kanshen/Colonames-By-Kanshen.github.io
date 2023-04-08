@@ -134,12 +134,12 @@
         text-align: center;
     }
 
-    div.colorbox>a>span#colorname {
-        font-size: 32px;
+    div.colorbox>span#colorname {
+        font-size: 3vw;
         font-family: 'Bebas Neue';
     }
 
-    div.colorbox>a>span#colorhex {
+    div.colorbox>span#colorhex {
         font-size: 24px;
         font-family: 'Bebas Neue';
     }
@@ -286,12 +286,12 @@
         text-align: center;
     }
 
-    div.colorbox>a>span#colorname {
-        font-size: 32px;
+    div.colorbox>span#colorname {
+        font-size: 3vw;
         font-family: 'Bebas Neue';
     }
 
-    div.colorbox>a>span#colorhex {
+    div.colorbox>span#colorhex {
         font-size: 24px;
         font-family: 'Bebas Neue';
     }
