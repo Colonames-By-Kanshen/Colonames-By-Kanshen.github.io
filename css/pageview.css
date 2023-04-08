@@ -10,3 +10,9 @@ header>span {
 header>a>div>svg>g {
     fill: var(--mainContentColor) !important;
 }
+
+body {
+    background: linear-gradient(to bottom, var(--themeColor) 0%, #000000 100%) !important;
+    height: calc(100% - 50px) !important;
+    width: 100% !important
+}
