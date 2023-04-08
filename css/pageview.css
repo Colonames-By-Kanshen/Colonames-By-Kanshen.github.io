@@ -1,6 +1,6 @@
 header {
     background-color: var(--themeColor) !important;
-    color: var(--mainContantColor) !important;
+    color: var(--mainContentColor) !important;
 }
 
 header>span {
