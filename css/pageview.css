@@ -2,3 +2,7 @@ header {
     background-color: var(--themeColor) !important;
     color: var(--mainContantColor) !important;
 }
+
+header>span {
+    color: inherit;
+}
