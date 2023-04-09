@@ -30,7 +30,7 @@ mainbodycontent>div#colorname {
     color: var(--mainContentColor);
     font-size: 50px;
     font-family: 'Bebas Neue';
-    margin-top: 10px;
+    margin-top: 15px;
     height: fit-content;
 }
 
@@ -53,7 +53,7 @@ mainbodycontent>div#colorname {
         white-space: pre-wrap;
         margin-left: 50px;
         border-radius: 25px;
-        margin-top: 10px;
+        margin-top: 15px;
         margin-right: 50px;
     }
 
