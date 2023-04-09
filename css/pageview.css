@@ -23,6 +23,7 @@ body>mainbodycontent {
 mainbodycontent>div#japanesecolorname {
     font-family: "Corporate Logo";
     font-size: 50px;
+    letter-spacing: 15px;
 }
 
 @media screen and (orientation:landscape) {
