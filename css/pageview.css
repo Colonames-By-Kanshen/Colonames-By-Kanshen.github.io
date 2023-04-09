@@ -60,6 +60,10 @@ mainbodycontent>div#colorname {
     body>mainbodycontent {
         flex-direction: row;
     }
+
+    mainbodycontent>div#colorname {
+        text-align: left;
+    }
 }
 
 @media screen and (orientation:portrait) {
@@ -87,5 +91,9 @@ mainbodycontent>div#colorname {
 
     body>mainbodycontent {
         flex-direction: column;
+    }
+
+    mainbodycontent>div#colorname {
+        text-align: center;
     }
 }
