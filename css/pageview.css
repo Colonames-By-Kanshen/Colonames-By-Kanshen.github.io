@@ -20,6 +20,11 @@ body>mainbodycontent {
     position: absolute;
 }
 
+mainbodycontent>div#japanesecolorname {
+    font-family: "Corporate Logo";
+    font-size: 50px;
+}
+
 @media screen and (orientation:landscape) {
     mainbodycontent>div#japanesecolorname {
         height: 81.125%;
@@ -29,7 +34,6 @@ body>mainbodycontent {
         color: var(--themeColor);
         writing-mode: vertical-rl;
         text-orientation: upright;
-        font-size: 50px;
         text-align: center;
         display: flex;
         align-items: center;
@@ -51,7 +55,6 @@ body>mainbodycontent {
         color: var(--themeColor);
         writing-mode: lr;
         text-orientation: upright;
-        font-size: 50px;
         text-align: center;
         display: flex;
         align-items: center;
