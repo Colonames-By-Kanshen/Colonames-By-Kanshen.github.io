@@ -45,7 +45,7 @@ body>mainbodycontent {
 
 @media screen and (orientation:portrait) {
     mainbodycontent>div#japanesecolorname {
-        min-height: 50px;
+        min-height: 25px;
         height: fit-content;
         background-color: var(--mainContentColor);
         color: var(--themeColor);
@@ -57,10 +57,13 @@ body>mainbodycontent {
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         white-space: pre-wrap;
-        margin-left: 50px;
+        margin-left: auto;
+        margin-right: auto;
         border-radius: 25px;
+        margin-top: 35px;
+        width: 90%;
     }
 }
