@@ -15,7 +15,7 @@ body>mainbodycontent {
     background: linear-gradient(to bottom, var(--themeColor) 0%, var(--additionalContentColor) 100%) !important;
     height: calc(100% - 50px) !important;
     width: 100% !important;
-    display: block !important;
+    display: flex !important;
     top: 50px;
     position: absolute;
 }
@@ -24,6 +24,14 @@ mainbodycontent>div#japanesecolorname {
     font-family: "Corporate Logo";
     font-size: 50px;
     letter-spacing: 15px;
+}
+
+maincolorbody>div#colorname {
+    color: var(--mainContentColor);
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+    margin-top: 10px;
+    height: fit-content;
 }
 
 @media screen and (orientation:landscape) {
@@ -46,6 +54,11 @@ mainbodycontent>div#japanesecolorname {
         margin-left: 50px;
         border-radius: 25px;
         margin-top: 10px;
+        margin-right: 50px;
+    }
+
+    body>mainbodycontent {
+        flex-direction: row;
     }
 }
 
@@ -70,5 +83,9 @@ mainbodycontent>div#japanesecolorname {
         border-radius: 25px;
         margin-top: 35px;
         width: 90%;
+    }
+
+    body>mainbodycontent {
+        flex-direction: column;
     }
 }
