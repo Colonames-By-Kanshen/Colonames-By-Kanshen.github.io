@@ -17,3 +17,12 @@ body>mainbodycontent {
     width: 100% !important;
     display: block !important;
 }
+
+mainbodycontent>div#japanesecolorname {
+    height: 90%;
+    width: 20%;
+    background-color: var(--mainContentColor);
+    color: var(--themeColor);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
