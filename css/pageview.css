@@ -16,6 +16,8 @@ body>mainbodycontent {
     height: calc(100% - 50px) !important;
     width: 100% !important;
     display: block !important;
+    top: 50px;
+    position: absolute;
 }
 
 @media screen and (orientation:landscape) {
