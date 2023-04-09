@@ -34,6 +34,11 @@ mainbodycontent>div#colorname {
     height: fit-content;
 }
 
+credits, footer {
+    background-color: var(--themeColor) !important;
+    color: var(--mainContentColor) !important;
+}
+
 @media screen and (orientation:landscape) {
     mainbodycontent>div#japanesecolorname {
         height: 81.125%;
