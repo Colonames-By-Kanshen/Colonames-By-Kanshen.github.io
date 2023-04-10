@@ -3,7 +3,7 @@ searchInput.addEventListener('input', searchColors);
 
 function searchColors() {
     const searchQuery = searchInput.value.toLowerCase().replace(/\s+/g, "");
-    const colorDivs = Array.from(document.querySelectorAll('.colorbox')).slice(0, -1);
+    const colorDivs = Array.from(document.querySelectorAll('.colorbox'));
 
     colorDivs.forEach(colorDiv => {
         const name = colorDiv.querySelector('#colorname').innerText.toLowerCase();
