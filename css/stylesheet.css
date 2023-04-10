@@ -303,3 +303,7 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+div.colorbox#ColorNotFound {
+    display: none;
+}
