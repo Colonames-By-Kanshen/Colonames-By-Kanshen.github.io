@@ -307,3 +307,7 @@ a {
 div.colorbox#ColorNotFound {
     display: none;
 }
+
+div.colorbox>span#colorname, div.colorbox>span#colorhex {
+    opacity: 0.9;
+}
