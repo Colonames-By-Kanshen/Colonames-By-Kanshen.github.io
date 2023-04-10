@@ -17,8 +17,6 @@ function randomThemeColor() {
     desctitle.style.backgroundColor = css[randomColorIndex];
     hexSpan.innerHTML = '<a href="http://colonames.by.kanshen.click/' + randomHEX.replace("#", "") + '">' + randomHEX + '</a>';
     cssSpan.innerHTML = '<a href="http://colonames.by.kanshen.click/' + randomHEX.replace("#", "") + '">' + randomCSS + '</a>';
-    console.log(randomCSS);
-    console.log(randomHEX);
     getColorBrightness(randomHEX.replace("#", ""))
 }
 
