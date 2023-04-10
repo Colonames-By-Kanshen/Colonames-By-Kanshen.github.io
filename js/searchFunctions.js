@@ -4,6 +4,7 @@ searchInput.addEventListener('input', searchColors);
 function searchColors() {
     const searchQuery = searchInput.value.toLowerCase().replace(/\s+/g, "");
     const colorDivs = Array.from(document.querySelectorAll('.colorbox')).slice(0, -1);
+    const Div404 = document.querySelector("div#ColorNotFound");
 
     colorDivs.forEach(colorDiv => {
         const name = colorDiv.querySelector('#colorname').innerText.toLowerCase();
@@ -15,4 +16,10 @@ function searchColors() {
             colorDiv.style.display = 'none';
         }
     });
+
+    if (colorDivs.some(colorDiv => colorDiv.style.display === 'flex')) {
+        Div404.style.display = 'none';
+    } else {
+        Div404.style.display = 'flex';
+    }
 }
