@@ -2,6 +2,7 @@ const searchInput = document.getElementById('searchInput');
 searchInput.addEventListener('input', searchColors);
 
 function searchColors() {
+    const searchInput = document.getElementById('searchInput');
     const searchQuery = searchInput.value.toLowerCase().replace(/\s+/g, "");
     const colorDivs = Array.from(document.querySelectorAll('.colorbox')).slice(0, -1);
     const Div404 = document.querySelector("div#ColorNotFound");
