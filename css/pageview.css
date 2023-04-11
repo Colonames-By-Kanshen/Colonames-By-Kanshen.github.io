@@ -25,7 +25,7 @@ mainbodycontent>div#japanesecolorname {
     letter-spacing: 15px;
 }
 
-mainbodycontent>div#colorname {
+mainbodycontent>div#info>div#colorname {
     color: var(--mainContentColor);
     font-size: 50px;
     font-family: 'Bebas Neue';
