@@ -94,6 +94,10 @@ footer {
         margin-bottom: 10px;
         font-family: "Bebas Neue";
     }
+
+    mainbodycontent>div#info {
+        width: 70%;
+    }
 }
 
 @media screen and (orientation:portrait) {
@@ -149,6 +153,10 @@ footer {
         margin-top: 10px;
         margin-bottom: 10px;
         font-family: "Bebas Neue";
+    }
+
+    mainbodycontent>div#info {
+        width: 90%;
     }
 }
 
