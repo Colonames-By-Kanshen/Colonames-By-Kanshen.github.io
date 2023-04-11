@@ -74,6 +74,26 @@ footer {
     body>mainbodycontent {
         height: calc(100% - 82px) !important;
     }
+
+    button#coloréttebutton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 50px;
+        border-radius: 30px;
+        border: none;
+        background-color: var(--mainContentColor);
+        color: var(--themeColor);
+        font-size: 14px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: "Bebas Neue";
+    }
 }
 
 @media screen and (orientation:portrait) {
@@ -110,4 +130,28 @@ footer {
     body>mainbodycontent {
         height: calc(100% - 83px) !important;
     }
+
+    button#coloréttebutton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 50px;
+        border-radius: 30px;
+        border: none;
+        background-color: var(--mainContentColor);
+        color: var(--themeColor);
+        font-size: 14px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: "Bebas Neue";
+    }
+}
+
+button#coloréttelogo>svg#coloréttebuttonlogo>g {
+    fill: var(--themeColor);
 }
