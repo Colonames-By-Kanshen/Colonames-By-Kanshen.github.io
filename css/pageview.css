@@ -152,6 +152,11 @@ footer {
     }
 }
 
-button#coloréttelogo>svg#coloréttebuttonlogo>g {
+button#coloréttebutton>svg#coloréttebuttonlogo>g {
     fill: var(--themeColor);
+}
+
+button#coloréttebutton>svg#coloréttebuttonlogo {
+    width: 25px;
+    height: 25px;
 }
