@@ -169,4 +169,6 @@ button#coloréttebutton>svg#coloréttebuttonlogo>g {
 button#coloréttebutton>svg#coloréttebuttonlogo {
     width: 25px;
     height: 25px;
+    margin-right: 5px;
+    margin-bottom: 2.125px;
 }
