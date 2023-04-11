@@ -13,7 +13,6 @@ header>a>div>svg>g {
 
 body>mainbodycontent {
     background: linear-gradient(to bottom, var(--themeColor) 0%, var(--additionalContentColor) 100%) !important;
-    height: calc(100% - 50px) !important;
     width: 100% !important;
     display: flex !important;
     top: 50px;
@@ -34,7 +33,8 @@ mainbodycontent>div#colorname {
     height: fit-content;
 }
 
-credits, footer {
+credits,
+footer {
     background-color: var(--themeColor) !important;
     color: var(--mainContentColor) !important;
 }
@@ -70,6 +70,10 @@ credits, footer {
         text-align: left;
         margin-bottom: 125px;
     }
+
+    body>mainbodycontent {
+        height: calc(100% - 89px) !important;
+    }
 }
 
 @media screen and (orientation:portrait) {
@@ -101,5 +105,9 @@ credits, footer {
 
     mainbodycontent>div#colorname {
         text-align: center;
+    }
+
+    body>mainbodycontent {
+        height: calc(100% - 99px) !important;
     }
 }
