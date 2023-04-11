@@ -66,7 +66,7 @@ footer {
         flex-direction: row;
     }
 
-    mainbodycontent>div#colorname {
+    mainbodycontent>div#info>div#colorname {
         text-align: left;
         margin-bottom: 125px;
     }
@@ -123,7 +123,7 @@ footer {
         flex-direction: column;
     }
 
-    mainbodycontent>div#colorname {
+    mainbodycontent>div#info>div#colorname {
         text-align: center;
     }
 
