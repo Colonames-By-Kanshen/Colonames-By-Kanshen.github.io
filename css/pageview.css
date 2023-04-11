@@ -91,6 +91,7 @@ footer {
         margin-top: 10px;
         margin-bottom: 10px;
         font-family: "Bebas Neue";
+        cursor: pointer;
     }
 
     mainbodycontent>div#info {
@@ -151,6 +152,7 @@ footer {
         margin-top: 10px;
         margin-bottom: 10px;
         font-family: "Bebas Neue";
+        cursor: pointer;
     }
 
     mainbodycontent>div#info {
