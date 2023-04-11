@@ -15,7 +15,7 @@ body>mainbodycontent {
     background: linear-gradient(to bottom, var(--themeColor) 0%, var(--additionalContentColor) 100%) !important;
     width: 100% !important;
     display: flex !important;
-    top: 50px;
+    top: 49px;
     position: absolute;
 }
 
@@ -72,7 +72,7 @@ footer {
     }
 
     body>mainbodycontent {
-        height: calc(100% - 89px) !important;
+        height: calc(100% - 95px) !important;
     }
 }
 
@@ -108,6 +108,6 @@ footer {
     }
 
     body>mainbodycontent {
-        height: calc(100% - 99px) !important;
+        height: calc(100% - 83px) !important;
     }
 }
