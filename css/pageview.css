@@ -72,7 +72,7 @@ footer {
     }
 
     body>mainbodycontent {
-        height: calc(100% - 95px) !important;
+        height: calc(100% - 82px) !important;
     }
 }
 
@@ -110,8 +110,4 @@ footer {
     body>mainbodycontent {
         height: calc(100% - 83px) !important;
     }
-}
-
-.overlay {
-    z-index: 69;
 }
