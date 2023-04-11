@@ -77,10 +77,10 @@ footer {
 
     button#coloréttebutton {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 80%;
+        width: 95%;
         height: 50px;
         border-radius: 30px;
         border: none;
@@ -137,7 +137,7 @@ footer {
 
     button#coloréttebutton {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         width: 90%;
