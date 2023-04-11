@@ -311,3 +311,7 @@ div.colorbox#ColorNotFound {
 div.colorbox>span#colorname, div.colorbox>span#colorhex {
     opacity: 0.9;
 }
+
+.overlay {
+    z-index: 69;
+}
