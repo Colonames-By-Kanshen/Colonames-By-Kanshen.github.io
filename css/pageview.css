@@ -41,7 +41,7 @@ footer {
 
 @media screen and (orientation:landscape) {
     mainbodycontent>div#japanesecolorname {
-        height: 81.125%;
+        height: calc(100% - 170px);
         min-width: 20%;
         width: fit-content;
         background-color: var(--mainContentColor);
@@ -92,6 +92,8 @@ footer {
         margin-bottom: 10px;
         font-family: "Bebas Neue";
         cursor: pointer;
+        bottom: 45px;
+        position: absolute;
     }
 
     mainbodycontent>div#info {
@@ -153,6 +155,8 @@ footer {
         margin-bottom: 10px;
         font-family: "Bebas Neue";
         cursor: pointer;
+        bottom: 45px;
+        position: absolute;
     }
 
     mainbodycontent>div#info {
