@@ -100,15 +100,16 @@ footer {
         width: 69%;
     }
 
-    span#hexspacename {
+    span.spacename {
         background-color: var(--mainContentColor);
-        padding: 15;
+        padding: 0 20;
         font-family: 'Bebas Neue';
         font-size: 28;
         margin-right: 10px;
+        display: inline-flex;
     }
 
-    span#hexspacevalue {
+    span.spacevalue {
         color: var(--mainContentColor);
         font-family: 'Bebas Neue';
         font-size: 28px;
@@ -183,15 +184,16 @@ footer {
         margin-right: auto;
     }
 
-    span#hexspacename {
+    span.spacename {
         background-color: var(--mainContentColor);
-        padding: 15;
+        padding: 0 20;
         font-family: 'Bebas Neue';
         font-size: 28;
         margin-right: 10px;
+        display: inline-flex;
     }
 
-    span#hexspacevalue {
+    span.spacevalue {
         color: var(--mainContentColor);
         font-family: 'Bebas Neue';
         font-size: 28px;
