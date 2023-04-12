@@ -113,6 +113,7 @@ footer {
         color: var(--mainContentColor);
         font-family: 'Bebas Neue';
         font-size: 28px;
+        word-spacing: 10px;
     }
 
     div#colorspaces {
@@ -212,6 +213,7 @@ footer {
         justify-content: center;
         flex-wrap: wrap;
         align-content: center;
+        word-spacing: 10px;
     }
 
     div#colorspaces {
