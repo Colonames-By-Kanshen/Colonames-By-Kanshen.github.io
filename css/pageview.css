@@ -221,6 +221,10 @@ footer {
     div.colorspace {
         margin-bottom: 17.5;
     }
+
+        mainbodycontent>div#info>div#colorname {
+            margin-top: 5px;
+        }
 }
 
 button#coloréttebutton>svg#coloréttebuttonlogo>g {
