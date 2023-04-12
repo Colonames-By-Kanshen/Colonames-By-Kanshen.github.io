@@ -21,7 +21,6 @@ body>mainbodycontent {
 
 mainbodycontent>div#japanesecolorname {
     font-family: "Corporate Logo";
-    font-size: 50px;
     letter-spacing: 15px;
 }
 
@@ -60,6 +59,7 @@ footer {
         border-radius: 25px;
         margin-top: 15px;
         margin-right: 50px;
+        font-size: 50px;
     }
 
     body>mainbodycontent {
@@ -131,7 +131,6 @@ footer {
 
 @media screen and (orientation:portrait) {
     mainbodycontent>div#japanesecolorname {
-        min-height: 25px;
         height: fit-content;
         background-color: var(--mainContentColor);
         color: var(--themeColor);
@@ -150,6 +149,7 @@ footer {
         border-radius: 25px;
         margin-top: 35px;
         width: 90%;
+        font-size: 30px;
     }
 
     body>mainbodycontent {
@@ -198,19 +198,26 @@ footer {
         padding: 0 20;
         font-family: 'Bebas Neue';
         font-size: 28;
-        margin-right: 10px;
-        display: inline-flex;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        line-height: 52.5px;
+        border-radius: 25px;
     }
 
     span.spacevalue {
         color: var(--mainContentColor);
         font-family: 'Bebas Neue';
         font-size: 28px;
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
     }
 
     div#colorspaces {
         text-align: center;
-        line-height: 75px;
     }
 
     span.spacename>span#note {
@@ -219,7 +226,7 @@ footer {
     }
 
     div.colorspace {
-        margin-bottom: 17.5;
+        margin-bottom: 0;
     }
 
         mainbodycontent>div#info>div#colorname {
