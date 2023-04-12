@@ -123,6 +123,10 @@ footer {
         font-size: 14px;
         margin-left: 10px;
     }
+
+    div.colorspace {
+        margin-bottom: 25;
+    }
 }
 
 @media screen and (orientation:portrait) {
@@ -212,6 +216,10 @@ footer {
     span.spacename>span#note {
         font-size: 14px;
         margin-left: 10px;
+    }
+
+    div.colorspace {
+        margin-bottom: 25;
     }
 }
 
