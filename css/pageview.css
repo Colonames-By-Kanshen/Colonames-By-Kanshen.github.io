@@ -68,7 +68,7 @@ footer {
 
     mainbodycontent>div#info>div#colorname {
         text-align: left;
-        margin-bottom: 125px;
+        margin-bottom: 100px;
     }
 
     body>mainbodycontent {
@@ -113,6 +113,10 @@ footer {
         font-family: 'Bebas Neue';
         font-size: 28px;
     }
+
+    div#colorspaces {
+        line-height: 75px;
+    };
 }
 
 @media screen and (orientation:portrait) {
@@ -144,7 +148,6 @@ footer {
 
     mainbodycontent>div#info>div#colorname {
         text-align: center;
-        margin-bottom: 25px;
     }
 
     body>mainbodycontent {
@@ -196,6 +199,7 @@ footer {
 
     div#colorspaces {
         text-align: center;
+        line-height: 75px;
     }
 }
 
