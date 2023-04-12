@@ -117,7 +117,12 @@ footer {
 
     div#colorspaces {
         line-height: 75px;
-    };
+    }
+
+    span.spacename>span#note {
+        font-size: 14px;
+        margin-left: 10px;
+    }
 }
 
 @media screen and (orientation:portrait) {
@@ -202,6 +207,11 @@ footer {
     div#colorspaces {
         text-align: center;
         line-height: 75px;
+    }
+
+    span.spacename>span#note {
+        font-size: 14px;
+        margin-left: 10px;
     }
 }
 
