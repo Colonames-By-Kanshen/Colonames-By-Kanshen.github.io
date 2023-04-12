@@ -99,6 +99,20 @@ footer {
     mainbodycontent>div#info {
         width: 69%;
     }
+
+    span#hexspacename {
+        background-color: var(--mainContentColor);
+        padding: 15;
+        font-family: 'Bebas Neue';
+        font-size: 28;
+        margin-right: 10px;
+    }
+
+    span#hexspacevalue {
+        color: var(--mainContentColor);
+        font-family: 'Bebas Neue';
+        font-size: 28px;
+    }
 }
 
 @media screen and (orientation:portrait) {
@@ -130,6 +144,7 @@ footer {
 
     mainbodycontent>div#info>div#colorname {
         text-align: center;
+        margin-bottom: 25px;
     }
 
     body>mainbodycontent {
@@ -163,6 +178,20 @@ footer {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    span#hexspacename {
+        background-color: var(--mainContentColor);
+        padding: 15;
+        font-family: 'Bebas Neue';
+        font-size: 28;
+        margin-right: 10px;
+    }
+
+    span#hexspacevalue {
+        color: var(--mainContentColor);
+        font-family: 'Bebas Neue';
+        font-size: 28px;
     }
 }
 
