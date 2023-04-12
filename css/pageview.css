@@ -193,6 +193,10 @@ footer {
         font-family: 'Bebas Neue';
         font-size: 28px;
     }
+
+    div#colorspaces {
+        text-align: center;
+    }
 }
 
 button#coloréttebutton>svg#coloréttebuttonlogo>g {
