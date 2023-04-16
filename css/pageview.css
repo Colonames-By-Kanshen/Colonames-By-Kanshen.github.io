@@ -229,9 +229,10 @@ footer {
         margin-bottom: 0;
     }
 
-        mainbodycontent>div#info>div#colorname {
-            margin-top: 5px;
-        }
+    mainbodycontent>div#info>div#colorname {
+        margin-top: 5px;
+    }
+}
 }
 
 button#coloréttebutton>svg#coloréttebuttonlogo>g {
