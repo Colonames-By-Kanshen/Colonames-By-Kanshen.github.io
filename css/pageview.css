@@ -260,6 +260,109 @@ footer {
     }
 }
 
+@media screen and (orientation:landscape) and (min-aspect-ratio: 2.0710059172) {
+    mainbodycontent>div#japanesecolorname {
+        height: fit-content;
+        background-color: var(--mainContentColor);
+        color: var(--themeColor);
+        writing-mode: lr;
+        text-orientation: upright;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        white-space: pre-wrap;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
+        margin-top: 35px;
+        width: 90%;
+        font-size: 30px;
+        padding: 1vh 0px;
+    }
+
+    body>mainbodycontent {
+        flex-direction: column;
+    }
+
+    body>mainbodycontent {
+        height: calc(100% - 83px) !important;
+    }
+
+    mainbodycontent>div#info>div#colorname {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    button#coloréttebutton {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 50px;
+        border-radius: 30px;
+        border: none;
+        background-color: var(--mainContentColor);
+        color: var(--themeColor);
+        font-size: 14px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: "Bebas Neue";
+        cursor: pointer;
+        bottom: 2vh;
+        position: absolute;
+    }
+
+    mainbodycontent>div#info {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    div#colorspaces {
+        flex-direction: row;
+        justify-content: space-evenly;
+        display: inline-flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    div.colorspace {
+        display: flex;
+        width: fit-content;
+        height: 75px;
+        border-radius: 100px;
+        overflow: hidden;
+        margin-bottom: 16px;
+        margin-right: 16px;
+        height: 10vh;
+  }
+    span.spacename {
+        width: fit-content;
+        height: 100%;
+        border-radius: 0;
+        align-items: center;
+        margin-right: 0
+    }
+        span.spacevalue {
+        width: fit-content;
+        padding: 0 25px;
+        height: 100%;
+        border-radius: 0;
+        text-align: center;
+        align-items: center;
+        color: var(--mainContentColor);
+        background-color: var(--additionalContentColor);
+        display: inline-flex;
+    }
+}
+
 button#coloréttebutton>svg#coloréttebuttonlogo>g {
     fill: var(--themeColor);
 }
