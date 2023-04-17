@@ -122,6 +122,7 @@ footer {
         height: 75%;
         flex-direction: column;
         justify-content: center;
+        margin-top: -2vh;
     }
 
     span.spacename>span#note {
