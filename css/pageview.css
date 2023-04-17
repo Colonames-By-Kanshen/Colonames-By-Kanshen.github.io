@@ -21,7 +21,7 @@ body>mainbodycontent {
 
 mainbodycontent>div#japanesecolorname {
     font-family: "Corporate Logo";
-    letter-spacing: 15px;
+    letter-spacing: 1.5vh;
 }
 
 mainbodycontent>div#info>div#colorname {
@@ -60,7 +60,6 @@ footer {
         margin-top: 15px;
         margin-right: 50px;
         font-size: 4.0625vh;
-        letter-spacing: 1.5vh;
     }
 
     body>mainbodycontent {
@@ -132,6 +131,11 @@ footer {
 
     div.colorspace {
         margin-bottom: 17.5;
+        width: max-content
+    }
+
+    div.colorspace#lab {
+        margin-bottom: 0;
     }
 }
 
