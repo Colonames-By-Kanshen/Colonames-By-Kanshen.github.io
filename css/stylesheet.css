@@ -120,7 +120,7 @@
         font-size: 12px;
     }
 
-    div.colorbox {
+    div.colorbox, div.specialcolorbox {
         width: 17.5%;
         height: 200px;
         border: 3px solid black;
@@ -135,12 +135,12 @@
         cursor: pointer;
     }
 
-    div.colorbox>span#colorname {
+    div.colorbox>span#colorname, div.specialcolorbox>span#colorname {
         font-size: 2vw;
         font-family: 'Bebas Neue';
     }
 
-    div.colorbox>span#colorhex {
+    div.colorbox>span#colorhex, div.specialcolorbox>span#colorhex {
         font-size: 1.5vw;
         font-family: 'Bebas Neue';
     }
@@ -273,7 +273,7 @@
         padding: 10px;
     }
 
-    div.colorbox {
+    div.colorbox, div.specialcolorbox {
         width: 17.5%;
         height: 200px;
         border: 3px solid black;
@@ -288,12 +288,12 @@
         cursor: pointer;
     }
 
-    div.colorbox>span#colorname {
+    div.colorbox>span#colorname, div.specialcolorbox>span#colorname {
         font-size: 2vw;
         font-family: 'Bebas Neue';
     }
 
-    div.colorbox>span#colorhex {
+    div.colorbox>span#colorhex, div.specialcolorbox>span#colorhex {
         font-size: 1.5vw;
         font-family: 'Bebas Neue';
     }
@@ -304,7 +304,7 @@ a {
     text-decoration: none;
 }
 
-div.colorbox#ColorNotFound {
+div.colorbox#ColorNotFound, div.projectblurple {
     display: none;
 }
 
